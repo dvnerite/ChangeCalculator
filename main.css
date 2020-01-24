@@ -1,0 +1,62 @@
+
+
+.head-container {
+
+    display: flex;
+}
+
+        .head-container > div {
+            margin: auto;
+
+        }
+
+.trans-container {
+
+    display: flex;
+
+}
+
+        .trans-container > div {
+
+        margin: auto; 
+        
+        }
+
+.button-container {
+
+    display: flex;
+
+}
+
+        .button-container > div {
+
+            margin: auto;
+            padding: 50px;
+
+        }
+
+.dollars-container {
+
+    display: flex;
+
+}
+
+        .dollars-container > div {
+            
+            margin: auto;
+
+        }
+
+
+.change-container {
+
+    display: flex;
+   
+
+}
+
+        .change-container > div {
+
+            margin: auto;
+
+        }

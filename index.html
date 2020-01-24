@@ -3,11 +3,52 @@
   <head>
     <meta charset="utf-8">
     <title>Change Calculator</title>
+
+  <div class="head-container">
+    <div><h1>Change Calculator</h1></div>
+    <link href="main.css" rel="stylesheet"> 
+   </div>
+
   </head>
+
   <body>
     <!-- Write your markup here -->
+   
+    <div class="trans-container">
+      <ul class="change-output"></ul>
+       <div><h5>Total Sale Amount:</h5>           
+        <input type="number" id="amount-due" placeholder="Amount Due"/></div>
+        <div><h5>Total Amount Tendered:</h5>
+        <input type="number" id="amount-received" placeholder="Amount Received"/></div>
+    </div>
+
+    <div class="button-container">
+      <div><button type="button" id="calculate-change" onclick="calculateChange"()>Calculate Change</button></div>
+
+    </div>
+
+    <div class="dollars-container">
+        <ul></ul>
+          <div><h3>Dollars</h3>
+          <output id="dollars-output"></output></div>
+        
+    </div>      
+
+    <div class="change-container">
+        <ul></ul>
+          <div><h5>Quarters</h5>
+            <output id="quarters-output"></output></div>
+         <div><h5>Dimes</h5>
+            <output id="dimes-output"></output></div>
+         <div><h5>Nickels</h5>
+            <output id="nickels-output"></output></div>
+         <div><h5>Pennies</h5>
+            <output id="pennies-output"></output></div>
+        
+    </div>
+      
 
     <!-- Don't forget to add your <script> tag here -->
-
+  <script src="main.js"></script>
   </body>
 </html>
